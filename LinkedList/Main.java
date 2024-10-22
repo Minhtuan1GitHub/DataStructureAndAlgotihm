@@ -12,6 +12,16 @@ public class Main{
         nmt.addAfter("c", node);
         nmt.print();
 
+        // nmt.removeFirst();
+        // nmt.print();
+        // nmt.removeFirst();
+        // nmt.print();
+        // nmt.removeFirst();
+        // nmt.removeFirst();
+        // nmt.print();
+
+
+
         // System.out.println(nmt.findNode("c"));
     }
 }

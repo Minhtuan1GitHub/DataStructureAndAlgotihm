@@ -36,6 +36,22 @@ public class MyLinkedList<E> implements ListLinkedList<E>{
         }
     }
 
+    public Node<E> removeFirst() throws NoSuchElementException{
+        if (this.head == null){
+            throw new NoSuchElementException("nothing to remove");
+        }else{
+            Node<E> temp = this.head;
+            if (temp.getNext() == null){
+                this.head = null;
+                this.numNode--;
+                return temp;
+            }   
+            this.head = temp.getNext();
+            this.numNode--;
+            return temp;
+        }
+    }
+
     public Node<E> findNode(E data){
         if (this.head == null) {return null;}
         Node<E> temp = this.head;
