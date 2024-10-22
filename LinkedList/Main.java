@@ -20,6 +20,14 @@ public class Main{
         // nmt.removeFirst();
         // nmt.print();
 
+        nmt.removeLast();
+        nmt.print();
+        nmt.removeLast();
+        nmt.print();
+        nmt.removeFirst();
+        // nmt.print();
+        // nmt.removeLast();
+
 
 
         // System.out.println(nmt.findNode("c"));
